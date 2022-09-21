@@ -54,6 +54,7 @@ body{
 .container-nav{
     display: flex;
     height: 190px;
+    margin: 25px 100px 25px 25px;
 }
 .container-nav ul{
     display: flex;
@@ -74,3 +75,56 @@ body{
     padding: 5px 35px;
 }
 
+
+
+::marker{
+    font-weight: bold;
+    }
+    span {
+      font-family: 'Secular One', sans-serif;
+      text-align: left;
+      font-weight: bold;
+      
+    
+    }
+    .container-header{
+          text-align: center;
+    }
+
+    
+    
+      
+      .parrafo-Sangria{
+        text-indent: 40px;
+      }
+    
+      .sub-list{
+        margin-left: 100px;
+        list-style-type: circle;
+      }
+    
+      ol{
+        list-style-position: inside;
+      }
+    
+    .container{
+    
+    
+    }
+    
+    ol > li{
+      line-height: 20px;
+      margin-bottom: 15px;
+    }
+    
+    th, td {
+      padding: 10px 20px 10px 0px;
+    }
+    
+    .container-header-gameInfo , .container-footer{
+      margin: 5% 25%;
+    }
+    
+    tbody tr td:first-child{
+      padding-left: 80px;
+    }
